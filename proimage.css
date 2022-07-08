@@ -1,0 +1,165 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+}
+.nav
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-part1
+{
+    display: flex;
+    align-items: center;
+}
+/* Logo */
+.nav .logo
+{
+    margin: 0 20px;
+}
+.nav .logo h2
+{
+    user-select: none;
+}
+/* Search */
+.nav .search 
+{
+    margin: 0 20px 0 0;
+}
+.nav .search input[type="text"]
+{
+    width: 250px;
+    border-radius: 15px;
+    outline: none;
+    border: 3px solid #ccc;
+    padding: 5px 10px 5px 40px;
+
+    background-image: url(https://cdn.icon-icons.com/icons2/2551/PNG/512/search_icon_152764.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+}
+.nav .search input[type="text"]:hover
+{
+    border: 3px solid #111;
+}
+/* Nav bar */
+.nav .nav-bar
+{
+    display: flex;
+}
+.nav .nav-bar a 
+{
+    display: block;
+    width: 90px;
+    height: 35px;
+    margin: 0 10px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Fredoka", sans-serif;
+    text-decoration: none;
+
+    transition: 0.15s;
+}
+.nav .nav-bar a:hover 
+{
+    background-color: #111;
+    color: #fff;
+}
+/* account */
+/* .nav .user
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+} */
+.nav .user
+{
+    margin:  0 20px;
+}
+.nav .user .user-ava
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 3px solid #ccc;
+
+    background-image: url(my_logo.png);
+    background-size: 40px;
+    background-position: center;
+
+    transition: 0.25s;
+}
+.nav .user .user-ava:hover
+{
+    border: 3px solid #111;
+}
+
+
+/* Content */
+/* Image card */
+.content
+{
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .img-card 
+{
+    max-width: 530px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid rgb(188, 188, 188);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 15px;
+
+    transition: 0.2s;
+}
+.content .img-card p 
+{
+    font-weight: 600;
+}
+.content .img-card:hover
+{
+    border: 3px solid #111;
+}
+.content .img-card img 
+{
+    max-width: 500px;
+}
+
+
+/* footer */
+.footer
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer span
+{
+    font-weight: 600;
+}
